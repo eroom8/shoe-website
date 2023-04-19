@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skywalk Shoes</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- header section starts  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo">skywalk shoes</a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#products">products</a>
+        <a href="#featured">about</a>
+        <a href="#contact">contact</a>
+        <a href="#location">location</a>
+    </nav>
+
+   
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="slide-container active">
+        <div class="slide">
+           
+            <div class="image">
+                <img src="images/home-shoe-1.png" class="shoe" alt="">
+               
+            </div>
+        </div>
+    </div>
+
+    <div class="slide-container">
+        <div class="slide">
+           
+            <div class="image">
+                <img src="images/home-shoe-2.png" class="shoe" alt="">
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="slide-container">
+        <div class="slide">
+            
+            <div class="image">
+                <img src="images/home-shoe-3.png" class="shoe" alt="">
+               
+            </div>
+        </div>
+    </div>
+
+    <div id="prev" class="fas fa-chevron-left" onclick="prev()"></div>
+    <div id="next" class="fas fa-chevron-right" onclick="next()"></div>
+
+</section>
+
+<!-- home section ends -->
+
+
+<!-- featured section starts  -->
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> <span>featured</span> products </h1>
+
+    <div class="row">
+        <div class="image-container">
+            
+            <div class="big-image">
+                <img src="images/f-img-1.1.png" class="big-image-1" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <h3>new nike airmax shoes</h3>
+            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis praesentium odit voluptas illum iure libero quis fuga commodi. Autem.</p>
+            <div class="price">$80.99 </div>
+           
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="image-container">
+            
+            <div class="big-image">
+                <img src="images/f-img-2.1.png" class="big-image-2" alt="">
+            </div>
+        </div>
+        <div class="content">
+            <h3>new nike airmax shoes</h3>
+            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis praesentium odit voluptas illum iure libero quis fuga commodi. Autem.</p>
+            <div class="price">$80.99 </div>
+           
+        </div>
+    </div>
+
+   
+
+</section>
+
+
+
+<section class="footer"  id="products">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>our stores</h3>
+            <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum ullam veniam at itaque culpa hic corporis saepe dicta doloremque nihil </P>
+               <br>
+            <h3>quick links</h3>
+           <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum ullam veniam at itaque culpa hic corporis saepe dicta doloremque nihil </P>
+        </div>
+
+
+    </div>
+
+   
+</section>
+
+<div class="video-container" style="--aspect-ratio: 2 / 3;">
+    <iframe src="video/NIKE.mp4"></iframe>
+  </div>
+  
+
+   </section>
+   <section class="footer" id="contact">
+    <div class="container">
+	<div class="row">
+			<h1 style="text-align:center">contact us</h1>
+	</div>
+	<div class="row">
+			<h4 style="text-align:center">We'd love to hear from you!</h4>
+	</div>
+    <section >
+	<div class="row input-container">
+			<div class="col-xs-12">
+				<div class="styled-input wide">
+					<input type="text" required />
+					<label>Name</label> 
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<div class="styled-input wide">
+					<input type="text" required />
+					<label>Email</label> 
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<div class="styled-input wide" >
+					<input type="text" required />
+					<label>Phone Number</label> 
+				</div>
+			</div>
+			<div class="col-xs-12">
+				<div class="styled-input wide">
+					<textarea required></textarea>
+					<label>Message</label>
+				</div>
+			</div>
+			<div class="col-xs-12">
+				<div class="btn-lrg submit-btn">Send Message</div>
+			</div>
+	</div>
+</div>
+
+</section>
+
+<section class="footer" >
+
+<div  class='container' id="location">
+   
+    <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127636.78431462368!2d36.84600501465355!3d-1.386895462110082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f11655c311541%3A0x9dd769ac1c10b897!2sNairobi%20County!5e0!3m2!1sen!2ske!4v1681835748394!5m2!1sen!2ske" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>  
+   
+</div>
+</section>
+  <section class="footer">
+<div class="box-container" style="text-align:center">
+
+    <div class="box"  >
+        <h3>WHY YOU SHOULD CONSIDER OUR PRODUCTS</h3>
+        <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br> Earum ullam veniam at itaque culpa hic corporis saepe dicta doloremque nihil </P>
+          
+       <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br> Earum ullam veniam at itaque culpa hic corporis saepe dicta doloremque nihil </P>
+    </div>
+     
+
+</div>
+</section>
+
+<section>
+    <div class="logo" style="text-align:center" > <h2> SKYWALK shoes </h2> </div>
+</section>
+
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+     
+</body>
+</html>  
